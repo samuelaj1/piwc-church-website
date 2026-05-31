@@ -4,59 +4,40 @@
 
 <head>
 
-    <!-- Meta Options -->
-
     <meta charset="utf-8">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-
-    <!-- Title -->
-
-    <title>Homepage 1</title>
-
     <!-- Bootstrap -->
 
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/css/bootstrap.min.css')}}">
 
     <!-- Favicon -->
-
-    <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
+    <link rel="icon" type="image/x-icon" href="{{asset('assets/images/favicon.png')}}">
 
     <!-- Slick Slider -->
-
-    <link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/css/slick.css')}}">
 
     <!-- Animate -->
-
-    <link rel="stylesheet" type="text/css" href="assets/css/animate.min.css">
-
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/css/animate.min.css')}}">
 
     <!-- Animate on scroll -->
-
-    <link rel="stylesheet" type="text/css" href="assets/css/aos.css">
-
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/css/aos.css')}}">
 
     <!-- Fancy Box -->
-
-    <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
-
+    <link rel="stylesheet" href="{{asset('assets/css/jquery.fancybox.min.css')}}">
 
     <!-- Stylesheet -->
-
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/css/style.css')}}">
 
     <!-- Colors -->
-
-    <link rel="stylesheet" type="text/css" href="assets/css/color.css">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/css/color.css')}}">
 
 
     <!-- Responsive -->
-
-    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/css/responsive.css')}}">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
@@ -151,9 +132,9 @@
                         <div class="nav-bar">
 
                             <ul>
-                                <li><a href="/">Home</a></li>
-                                <li><a href="/">Sermons</a></li>
-                                <li><a href="/">Events</a></li>
+                                <li><a href="{{url('/')}}">Home</a></li>
+                                <li><a href="{{url('/sermons')}}">Sermons</a></li>
+                                <li><a href="{{url('/events')}}">Events</a></li>
                                 <li><a href="{{url('/contact')}}">Contact</a></li>
 
                             </ul>
@@ -171,7 +152,6 @@
                             <span></span>
 
                         </div>
-
                     </nav>
 
                 </div>
@@ -189,22 +169,16 @@
             <a href="{{url('/')}}">
 
                 <img src="{{asset('assets/images/piwc-logo.png')}}" style="width: 100px" alt="Responsive Logo">
-
             </a>
-
         </div>
 
         <ul>
             <li><a href="{{url('/')}}">Home</a></li>
             <li><a href="{{url('/sermons')}}">Sermons</a></li>
             <li><a href="{{url('/events')}}">Events</a></li>
-
             <li><a href="{{url('contact')}}">Contact</a></li>
-
         </ul>
-
         <a href="JavaScript:void(0)" id="res-cross"></a>
-
     </div>
 
 </header>
@@ -418,9 +392,7 @@
     </div>
 
 </footer>
-
 <!-- Footer One End -->
-
 
 <!-- Scroll to top -->
 
@@ -447,110 +419,176 @@
     </svg>
 </button>
 
-<!-- Donation Modal -->
-<div class="modal fade donation-model" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
-     tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="staticBackdropLabel">Donate Now</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <div class="donation-data">
+<div class="modal fade" id="weekendServiceModal" tabindex="-1">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content weekend-modal">
 
-                    <h2>Stand Up the Church Climate Crisis</h2>
+            <button type="button" class="btn-close custom-close"
+                    data-bs-dismiss="modal"></button>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed totam rem ape eaque.</p>
+            <div class="row g-0 h-100">
 
-                    <div class="donation-form">
+                <!-- LEFT -->
+                <div class="col-lg-6 left-panel">
 
-                        <div class="custom-donation-amount"><span class="text-white">$</span> <input
-                                class="donated_amount" type="number" placeholder="Custom Amount">
+                    <h2 class="modal-title-text">
+                        Join Us This Weekend
+                    </h2>
 
+                    <div class="service-group">
+
+                        <h4>
+                            <i class="fa-regular fa-clock me-2"></i>
+                            Sunday Service
+                        </h4>
+
+                        <div class="service-item">
+                            <h5>10:00 AM – Worship Service</h5>
+                            <p>92 Spring Bank, Hull HU3 1AA</p>
                         </div>
 
-                        <ul class="list-unstyled aos-init aos-animate">
+                    </div>
 
-                            <li><a class="donating" href="JavaScript:void(0)">$<span
-                                        class="donation_amount">5</span></a>
+                    <div class="service-group">
 
-                            </li>
+                        <h4>
+                            <i class="fa-solid fa-book-bible me-2"></i>
+                            Midweek Service
+                        </h4>
 
-                            <li><a class="donating" href="JavaScript:void(0)">$<span
-                                        class="donation_amount">10</span></a>
-
-                            </li>
-
-                            <li><a class="donating" href="JavaScript:void(0)">$<span
-                                        class="donation_amount">20</span></a>
-
-                            </li>
-
-                            <li><a class="donating" href="JavaScript:void(0)">$<span
-                                        class="donation_amount">30</span></a>
-
-                            </li>
-
-                        </ul>
-
-                        <a class="theme-btn" href="JavaScript:void(0)">Donate Now</a>
+                        <div class="service-item">
+                            <h5>Wednesday – Bible Study & Prayer</h5>
+                            <p>7:00 PM – 8:30 PM</p>
+                        </div>
 
                     </div>
+
                 </div>
+
+                <!-- RIGHT -->
+                <div class="col-lg-6 right-panel">
+
+                    <h4 class="location-title">
+                        <i class="fa-solid fa-location-dot me-2"></i>
+                        Our Location
+                    </h4>
+
+                    <div class="location-box">
+                        <h5>PIWC Hull</h5>
+                        <p>
+                            92 Spring Bank <br>
+                            Hull, HU3 1AA
+                        </p>
+
+                        <a href="https://maps.google.com/?q=92+Spring+Bank+HU3+1AA"
+                           target="_blank"
+                           class="direction-btn">
+
+                            <i class="fa-solid fa-location-arrow me-2"></i>
+                            Get Directions
+                        </a>
+                    </div>
+
+                </div>
+
             </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="supportModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content support-modal">
+
+            <button
+                type="button"
+                class="btn-close custom-close"
+                data-bs-dismiss="modal">
+            </button>
+
+            <div class="modal-body text-center">
+
+                <div class="support-icon">
+                    <i class="fa-solid fa-building-columns"></i>
+                </div>
+
+                <h2>Support the Ministry</h2>
+
+                <p class="support-text">
+                    Thank you for supporting the work of God.
+                    You can support the ministry using the bank details below.
+                </p>
+
+                <div class="bank-details">
+
+                    <!-- Main Church Account -->
+                    <div class="bank-item full-width">
+                        <span>Main Church Account</span>
+                        <h4>National Westminster Bank PLC</h4>
+
+                        <div class="account-info">
+                            <p>
+                                <strong>Account Number:</strong> 45886946
+                            </p>
+
+                            <p>
+                                <strong>Sort Code:</strong> 60-50-09
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Special Offering -->
+                    <div class="bank-item special-account">
+                        <span>Special Offering Account</span>
+                        <h4>National Westminster Bank PLC</h4>
+
+                        <div class="account-info">
+                            <p>
+                                <strong>Account Number:</strong> 45888280
+                            </p>
+
+                            <p>
+                                <strong>Sort Code:</strong> 60-50-09
+                            </p>
+                        </div>
+
+                        <div class="account-note">
+                            <i class="fa-solid fa-circle-info"></i>
+                            Tithes & offerings should not be paid into this account.
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
     </div>
 </div>
 
 <!-- Jquery -->
-
 <script src="assets/js/jquery.min.js"></script>
-
 
 <!-- Waypoint -->
 
 <script src="assets/js/jquery.waypoints.min.js"></script>
 
-
 <!-- Counter -->
 
 <script src="assets/js/jquery.counterup.min.js"></script>
-
-
 <!-- Slick Slider Js -->
-
 <script src="assets/js/slick.min.js"></script>
-
-
 <!-- Animate on scroll Js -->
-
 <script src="assets/js/aos.js"></script>
-
 <!-- Fontawesome Js -->
-
 <script src="assets/js/fontawesome.js"></script>
-
-
 <!-- Fancybox Js -->
-
 <script src="assets/js/jquery.fancybox.min.js"></script>
-
 <!-- Bootstrap Js -->
-
 <script src="assets/js/bootstrap.min.js"></script>
-
-
 <!-- Custom Js -->
-
 <script src="assets/js/custom.js"></script>
-
-
 @yield('scripts')
-
-
 </body>
-
-
-<!-- Mirrored from winsfolio.net/blesso/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 05 May 2026 21:11:35 GMT -->
 </html>

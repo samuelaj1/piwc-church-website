@@ -1,0 +1,55 @@
+.event-card{
+    cursor: pointer;
+    border-radius: 25px;
+    overflow: hidden;
+    transition: .3s ease;
+}
+
+.event-card:hover{
+    transform: translateY(-8px);
+}
+
+.event-card img{
+    width: 100%;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.image-modal{
+    background: transparent;
+    border: none;
+    overflow: hidden;
+}
+
+.image-modal img{
+    border-radius: 25px;
+    max-height: 90vh;
+    object-fit: contain;
+}
+
+.custom-close-btn{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(255,255,255,.95);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+.custom-close-btn:hover{
+    background: #fff;
+    transform: scale(1.05);
+}
+
+.custom-close-btn i{
+    font-size: 24px;
+    color: #04065C;
+}

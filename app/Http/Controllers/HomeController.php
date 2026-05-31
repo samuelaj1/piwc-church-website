@@ -17,4 +17,8 @@ class HomeController extends Controller
     public function sermons(){
         return view('sermons');
     }
+
+    public function events(){
+        return view('events');
+    }
 }
