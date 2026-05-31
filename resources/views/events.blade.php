@@ -1,7 +1,7 @@
 @extends('layouts.base')
 
 @section('title')
-    <title>Events | PIWC Hull</title>
+    <title>Events | Shalom PIWC Hull</title>
 
     <link rel="stylesheet" href="{{asset('assets/css/event.css')}}">
 
@@ -109,6 +109,19 @@
 
                         <img src="{{ asset('/assets/images/event-1.jpg') }}"
                              alt="Event Image 1">
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+
+                    <div class="event event-card"
+                         data-bs-toggle="modal"
+                         data-bs-target="#eventImageModal"
+                         data-image="{{ asset('/assets/images/project_day.jpg') }}">
+
+                        <img src="{{ asset('/assets/images/project_day.jpg') }}"
+                             alt="National Project Day">
 
                     </div>
 

@@ -1,7 +1,7 @@
 @extends('layouts.base')
 
 @section('title')
-    <title>Home | PIWC Hull</title>
+    <title>Home | Shalom PIWC Hull</title>
     <link rel="stylesheet" href="{{asset('assets/css/home.css')}}">
 @endsection
 

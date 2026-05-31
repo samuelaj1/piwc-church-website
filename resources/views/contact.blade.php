@@ -1,7 +1,7 @@
 @extends('layouts.base')
 
 @section('title')
-    <title>Contact | PIWC Hull</title>
+    <title>Contact | Shalom PIWC Hull</title>
 @endsection
 
 @section('content')

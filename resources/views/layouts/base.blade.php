@@ -43,8 +43,6 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
-
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap"
           rel="stylesheet">
 
@@ -92,13 +90,25 @@
 
                     <ul class="social-medias">
 
-                        <li><a href="JavaScript:void(0)"><img src="assets/images/facebook.svg" alt="facebook"></a></li>
+                        <li>
+                            <a href="https://www.instagram.com/hullpiwc/"
+                               target="_blank"
+                               aria-label="Instagram">
 
-                        <li><a href="JavaScript:void(0)"><img src="assets/images/twitter.svg" alt="twitter"></a></li>
+                                <i class="fa-brands fa-instagram"></i>
 
-                        <li><a href="JavaScript:void(0)"><img src="assets/images/instagram.svg" alt="instagram"></a>
+                            </a>
                         </li>
 
+                        <li>
+                            <a href="https://www.youtube.com/@Hullpiwc"
+                               target="_blank"
+                               aria-label="YouTube">
+
+                                <i class="fa-brands fa-youtube"></i>
+
+                            </a>
+                        </li>
                     </ul>
 
                 </div>
@@ -190,7 +200,9 @@
 
 <footer class="gap footer-one no-bottom green-overlay">
 
-    <div class="parallax" style="background-image: url(assets/images/footer-bg.webp);"></div>
+    <div class="parallax"
+         style="background-image: url('{{ asset('assets/images/footer-bg.webp') }}');">
+    </div>
 
     <div class="container">
 
