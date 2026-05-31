@@ -96,7 +96,7 @@
                             <img src="assets/images/pastor-1.jpg" alt="about image">
 
                             <a data-fancybox="gallery" href="assets/images/pastor-1.jpg"><img
-                                    src="assets/images/plus.svg"
+                                    src="{{asset('/assets/images/plus.svg')}}"
                                     alt="Plus"></a>
 
                         </figure>
