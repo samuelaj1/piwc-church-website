@@ -85,7 +85,7 @@
                             community where faith grows, lives are transformed and everyone is empowered to fulfil their
                             God-given purpose.</p>
 
-                        <a href="about-us.html" class="theme-btn">More About us</a>
+{{--                        <a href="about-us.html" class="theme-btn">More About us</a>--}}
 
                     </div>
 
@@ -147,7 +147,7 @@
 
                         <div>
 
-                            <img class="img-fluid w-100" src="assets/images/about-three-img.webp" alt="about image 1">
+                            <img class="img-fluid w-100" src="{{asset('assets/images/sark.jpg')}}" alt="about image 1">
 
                             <div class="slider-data">
 
