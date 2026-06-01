@@ -31,8 +31,8 @@ ul.meta,
 .widget-trending-videos > ul > li > a:hover,
 .widget-trending-videos > ul > li > ul.blog-meta li,
 .widget-trending-videos > ul > li > ul.blog-meta li:first-child:before,
-.active-track > .playlist-info-track, 
-.active-track >.playlist-duration, 
+.active-track > .playlist-info-track,
+.active-track >.playlist-duration,
 .active-track > .playlist-btn-play,
 .widget-categories ul li a:hover,
 .theme-dark-clr,
@@ -41,7 +41,7 @@ ul.meta,
 .pd-cat-tags ul li ul.pd-tag li a:hover,
 .total-donation-amount .total_amount input,
 .pastor-meta p.designation{
-color: #06087F;
+color: #ffffff;
 }
 
 blockquote,
@@ -108,7 +108,7 @@ background-color: #06087F;
 .mass-timing .table thead,
 .donation-type select,
 .video-box:before,
-.header-two .desktop-nav nav:before, 
+.header-two .desktop-nav nav:before,
 .header-two .desktop-nav nav:after,
 .green-bg{
 	background-color: #04065C;

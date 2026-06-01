@@ -183,6 +183,18 @@
                         <li class="flex-all">
 
                             <ul class="flex-all social-links">
+
+                                <!-- Facebook -->
+                                <li class="flex-all">
+                                    <a href="https://www.facebook.com/profile.php?id=100081811006958"
+                                       target="_blank"
+                                       class="text-white font-semi-bold flex-all f-b">
+
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                        Facebook
+                                    </a>
+                                </li>
+
                                 <!-- Instagram -->
                                 <li class="flex-all">
                                     <a href="https://www.instagram.com/shalompiwcdistrict/"
@@ -194,6 +206,18 @@
                                     </a>
                                 </li>
 
+                                <!-- TikTok -->
+                                <li class="flex-all">
+                                    <a href="https://www.tiktok.com/@hullpiwc?_r=1&_t=ZS-96qtGvmIIWl"
+                                       target="_blank"
+                                       class="text-white font-semi-bold flex-all tiktok">
+
+                                        <i class="fa-brands fa-tiktok"></i>
+                                        TikTok
+                                    </a>
+                                </li>
+
+                                <!-- YouTube -->
                                 <li class="flex-all">
                                     <a href="https://www.youtube.com/@Hullpiwc"
                                        target="_blank"
@@ -204,11 +228,9 @@
                                     </a>
                                 </li>
 
-
                             </ul>
 
                         </li>
-
 
                     </ul>
 

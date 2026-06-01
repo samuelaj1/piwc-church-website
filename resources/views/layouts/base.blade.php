@@ -90,6 +90,18 @@
 
                     <ul class="social-medias">
 
+                        <!-- Facebook -->
+                        <li>
+                            <a href="https://www.facebook.com/profile.php?id=100081811006958"
+                               target="_blank"
+                               aria-label="Facebook">
+
+                                <i class="fa-brands fa-facebook-f"></i>
+
+                            </a>
+                        </li>
+
+                        <!-- Instagram -->
                         <li>
                             <a href="https://www.instagram.com/hullpiwc/"
                                target="_blank"
@@ -100,6 +112,18 @@
                             </a>
                         </li>
 
+                        <!-- TikTok -->
+                        <li>
+                            <a href="https://www.tiktok.com/@hullpiwc?_r=1&_t=ZS-96qtGvmIIWl"
+                               target="_blank"
+                               aria-label="TikTok">
+
+                                <i class="fa-brands fa-tiktok"></i>
+
+                            </a>
+                        </li>
+
+                        <!-- YouTube -->
                         <li>
                             <a href="https://www.youtube.com/@Hullpiwc"
                                target="_blank"
@@ -109,6 +133,7 @@
 
                             </a>
                         </li>
+
                     </ul>
 
                 </div>
@@ -426,6 +451,16 @@
 
                 <ul class="social-medias">
 
+                    <!-- Facebook -->
+                    <li>
+                        <a href="https://www.facebook.com/profile.php?id=100081811006958"
+                           target="_blank"
+                           aria-label="Facebook">
+
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+
                     <!-- Instagram -->
                     <li>
                         <a href="https://www.instagram.com/hullpiwc/"
@@ -433,6 +468,16 @@
                            aria-label="Instagram">
 
                             <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+
+                    <!-- TikTok -->
+                    <li>
+                        <a href="https://www.tiktok.com/@hullpiwc?_r=1&_t=ZS-96qtGvmIIWl"
+                           target="_blank"
+                           aria-label="TikTok">
+
+                            <i class="fa-brands fa-tiktok"></i>
                         </a>
                     </li>
 
