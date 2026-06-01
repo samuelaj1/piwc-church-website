@@ -97,7 +97,7 @@
                                 <ul>
                                     <li>
                                         92 Spring Bank West, <br>
-                                        Hull, HU3 1AA, United Kingdom
+                                        Kingston Upon Hull, HU3 1AA, United Kingdom
                                     </li>
                                     <li>
                                         <span>Telephone:</span> <br>

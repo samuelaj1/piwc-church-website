@@ -222,7 +222,7 @@
                        class="text-white location-link">
 
                         <i class="fa-solid fa-location-dot me-2 text-warning"></i>
-                        92 Spring Bank West, HU3 1AA, United Kingdom
+                        92 Spring Bank, Kingston Upon Hull, HU3 1AA, United Kingdom
 
                     </a>
                 </p>
@@ -287,130 +287,134 @@
                 </ul>
 
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="col-lg-6 col-md-12">
 
-                <h2 class="text-white">
+                <h2 class="text-white mb-4">
                     Service Times
                 </h2>
 
-                <ul class="footer-services">
+                <div class="row g-3">
 
-                    <li>
+                    <!-- Sunday -->
+                    <div class="col-md-6">
+                        <div class="d-flex">
+                            <div class="service-icon me-3">
+                                <i class="fa-solid fa-church"></i>
+                            </div>
 
-                        <div class="service-icon">
-                            <i class="fa-solid fa-church"></i>
+                            <div>
+                                <h5 class="text-white">
+                                    Sunday Worship
+                                </h5>
+
+                                <p class="text-light mb-0">
+                                    <i class="fa-regular fa-clock me-2"></i>
+                                    Sun — 9:30AM - 12PM
+                                </p>
+                            </div>
                         </div>
+                    </div>
 
-                        <div>
-                            <h5 class="text-white">
-                                Sunday Worship Service
-                            </h5>
+                    <!-- Mid Week -->
+                    <div class="col-md-6">
+                        <div class="d-flex">
+                            <div class="service-icon me-3">
+                                <i class="fa-solid fa-book-bible"></i>
+                            </div>
 
-                            <p class="text-light mb-0">
-                                <i class="fa-regular fa-clock me-2"></i>
-                                Sunday — 9:30AM - 12:00 PM
-                            </p>
+                            <div>
+                                <h5 class="text-white">
+                                    Mid-Week
+                                </h5>
+
+                                <p class="text-light mb-0">
+                                    <i class="fa-regular fa-clock me-2"></i>
+                                    Wed — 8PM - 9PM
+                                </p>
+                            </div>
                         </div>
+                    </div>
 
-                    </li>
+                    <!-- Women -->
+                    <div class="col-md-6">
+                        <div class="d-flex">
+                            <div class="service-icon me-3">
+                                <i class="fa-solid fa-person-dress"></i>
+                            </div>
 
-                    <li>
+                            <div>
+                                <h5 class="text-white">
+                                    Women's Ministry
+                                </h5>
 
-                        <div class="service-icon">
-                            <i class="fa-solid fa-book-bible"></i>
+                                <p class="text-light mb-0">
+                                    <i class="fa-regular fa-clock me-2"></i>
+                                    Mon — 8PM - 9PM
+                                </p>
+                            </div>
                         </div>
+                    </div>
 
-                        <div>
-                            <h5 class="text-white">
-                                Mid-Week Service
-                            </h5>
+                    <!-- Youth -->
+                    <div class="col-md-6">
+                        <div class="d-flex">
+                            <div class="service-icon me-3">
+                                <i class="fa-solid fa-people-group"></i>
+                            </div>
 
-                            <p class="text-light mb-0">
-                                <i class="fa-regular fa-clock me-2"></i>
-                                Wednesday — 8:00PM - 09:00 PM
-                            </p>
+                            <div>
+                                <h5 class="text-white">
+                                    Youth Ministry
+                                </h5>
+
+                                <p class="text-light mb-0">
+                                    <i class="fa-regular fa-clock me-2"></i>
+                                    Fri — 8PM - 9PM
+                                </p>
+                            </div>
                         </div>
+                    </div>
 
-                    </li>
+                    <!-- Dawn Prayer -->
+                    <div class="col-12 mt-2">
+                        <div class="d-flex">
+                            <div class="service-icon me-3">
+                                <i class="fa-solid fa-hands-praying"></i>
+                            </div>
 
-                    <li>
+                            <div>
+                                <h5 class="text-white">
+                                    Dawn Prayers
+                                </h5>
 
-                        <div class="service-icon">
-                            <i class="fa-solid fa-person-dress"></i>
+                                <p class="text-light mb-1">
+                                    <i class="fa-regular fa-clock me-2"></i>
+                                    Saturday — 5:00 AM – 6:00 AM
+                                </p>
+
+                                <p class="text-light mb-1 small">
+                                    <strong>Meeting ID:</strong>
+                                    351 813 550 82
+                                </p>
+
+                                <p class="text-light mb-2 small">
+                                    <strong>Passcode:</strong>
+                                    bdJjfN
+                                </p>
+
+                                <a
+                                    href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_MGI2ODBiZjAtM2VmNC00NjEyLWE3NTgtMTQ3ZjIzODRkNDRm%40thread.v2/0?context=%7b%22Tid%22%3a%22e7f4d11b-2181-4bd7-bda1-b01b09d32ae9%22%2c%22Oid%22%3a%22779ce3a1-d75c-4585-86e0-aea5b64ba03a%22%7d"
+                                    target="_blank"
+                                    class="join-teams-link"
+                                >
+                                    <i class="fa-brands fa-microsoft me-2"></i>
+                                    Join on Teams
+                                </a>
+                            </div>
                         </div>
+                    </div>
 
-                        <div>
-                            <h5 class="text-white">
-                                Women's Ministry
-                            </h5>
-
-                            <p class="text-light mb-0">
-                                <i class="fa-regular fa-clock me-2"></i>
-                                Monday — 8:00PM - 09:00 PM
-                            </p>
-                        </div>
-
-                    </li>
-
-                    <li>
-
-                        <div class="service-icon">
-                            <i class="fa-solid fa-people-group"></i>
-                        </div>
-
-                        <div>
-                            <h5 class="text-white">
-                                Youth Ministry
-                            </h5>
-
-                            <p class="text-light mb-0">
-                                <i class="fa-regular fa-clock me-2"></i>
-                                Friday — 8:00PM - 09:00 PM
-                            </p>
-                        </div>
-
-                    </li>
-
-                    <li>
-
-                        <div class="service-icon">
-                            <i class="fa-solid fa-hands-praying"></i>
-                        </div>
-
-                        <div>
-                            <h5 class="text-white">
-                                Dawn Prayers
-                            </h5>
-
-                            <p class="text-light mb-1">
-                                <i class="fa-regular fa-clock me-2"></i>
-                                Saturday — 5:00 AM – 6:00 AM
-                            </p>
-
-                            <p class="text-light mb-1 small">
-                                <strong>Meeting ID:</strong>
-                                351 813 550 82
-                            </p>
-
-                            <p class="text-light mb-2 small">
-                                <strong>Passcode:</strong>
-                                bdJjfN
-                            </p>
-
-                            <a
-                                href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_MGI2ODBiZjAtM2VmNC00NjEyLWE3NTgtMTQ3ZjIzODRkNDRm%40thread.v2/0?context=%7b%22Tid%22%3a%22e7f4d11b-2181-4bd7-bda1-b01b09d32ae9%22%2c%22Oid%22%3a%22779ce3a1-d75c-4585-86e0-aea5b64ba03a%22%7d"
-                                target="_blank"
-                                class="join-teams-link"
-                            >
-                                <i class="fa-brands fa-microsoft me-2"></i>
-                                Join on Teams
-                            </a>
-
-                        </div>
-
-                    </li>
-
-                </ul>
+                </div>
 
             </div>
 
@@ -511,7 +515,7 @@
 
                         <div class="service-item">
                             <h5>10:00 AM – Worship Service</h5>
-                            <p>92 Spring Bank, Hull HU3 1AA</p>
+                            <p>92 Spring Bank, Kingston Upon Hull, HU3 1AA</p>
                         </div>
 
                     </div>
@@ -544,7 +548,7 @@
                         <h5>PIWC Hull</h5>
                         <p>
                             92 Spring Bank <br>
-                            Hull, HU3 1AA
+                            Kingston Upon Hull, HU3 1AA
                         </p>
 
                         <a href="https://maps.google.com/?q=92+Spring+Bank+HU3+1AA"
