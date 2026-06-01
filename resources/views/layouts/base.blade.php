@@ -295,90 +295,104 @@
 
                 <ul class="footer-services">
 
-                    <!-- Sunday Service -->
-                    <li class="service-item">
+                    <li>
+
                         <div class="service-icon">
                             <i class="fa-solid fa-church"></i>
                         </div>
 
-                        <div class="service-content">
-                            <h5>Sunday Worship Service</h5>
+                        <div>
+                            <h5 class="text-white">
+                                Sunday Worship Service
+                            </h5>
 
-                            <p>
+                            <p class="text-light mb-0">
                                 <i class="fa-regular fa-clock me-2"></i>
-                                Sunday — 9:30 AM - 12:00 PM
+                                Sunday — 9:30AM - 12:00 PM
                             </p>
                         </div>
+
                     </li>
 
-                    <!-- Mid Week -->
-                    <li class="service-item">
+                    <li>
+
                         <div class="service-icon">
                             <i class="fa-solid fa-book-bible"></i>
                         </div>
 
-                        <div class="service-content">
-                            <h5>Mid-Week Service</h5>
+                        <div>
+                            <h5 class="text-white">
+                                Mid-Week Service
+                            </h5>
 
-                            <p>
+                            <p class="text-light mb-0">
                                 <i class="fa-regular fa-clock me-2"></i>
-                                Wednesday — 8:00 PM - 9:00 PM
+                                Wednesday — 8:00PM - 09:00 PM
                             </p>
                         </div>
+
                     </li>
 
-                    <!-- Women Ministry -->
-                    <li class="service-item">
+                    <li>
+
                         <div class="service-icon">
                             <i class="fa-solid fa-person-dress"></i>
                         </div>
 
-                        <div class="service-content">
-                            <h5>Women's Ministry</h5>
+                        <div>
+                            <h5 class="text-white">
+                                Women's Ministry
+                            </h5>
 
-                            <p>
+                            <p class="text-light mb-0">
                                 <i class="fa-regular fa-clock me-2"></i>
-                                Monday — 8:00 PM - 9:00 PM
+                                Monday — 8:00PM - 09:00 PM
                             </p>
                         </div>
+
                     </li>
 
-                    <!-- Youth Ministry -->
-                    <li class="service-item">
+                    <li>
+
                         <div class="service-icon">
                             <i class="fa-solid fa-people-group"></i>
                         </div>
 
-                        <div class="service-content">
-                            <h5>Youth Ministry</h5>
+                        <div>
+                            <h5 class="text-white">
+                                Youth Ministry
+                            </h5>
 
-                            <p>
+                            <p class="text-light mb-0">
                                 <i class="fa-regular fa-clock me-2"></i>
-                                Friday — 8:00 PM - 9:00 PM
+                                Friday — 8:00PM - 09:00 PM
                             </p>
                         </div>
+
                     </li>
 
-                    <!-- Dawn Prayer -->
-                    <li class="service-item">
+                    <li>
+
                         <div class="service-icon">
                             <i class="fa-solid fa-hands-praying"></i>
                         </div>
 
-                        <div class="service-content">
-                            <h5>Dawn Prayers</h5>
+                        <div>
+                            <h5 class="text-white">
+                                Dawn Prayers
+                            </h5>
 
-                            <p>
+                            <p class="text-light mb-1">
                                 <i class="fa-regular fa-clock me-2"></i>
                                 Saturday — 5:00 AM – 6:00 AM
                             </p>
 
-                            <p class="meeting-info">
+                            <p class="text-light mb-1 small">
                                 <strong>Meeting ID:</strong>
                                 351 813 550 82
                             </p>
 
-                            <p class="meeting-info">
+                            <p class="text-light mb-2 small">
                                 <strong>Passcode:</strong>
                                 bdJjfN
                             </p>
@@ -391,7 +405,9 @@
                                 <i class="fa-brands fa-microsoft me-2"></i>
                                 Join on Teams
                             </a>
+
                         </div>
+
                     </li>
 
                 </ul>
