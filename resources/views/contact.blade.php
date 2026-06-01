@@ -7,14 +7,14 @@
 @section('content')
 
     <style>
-        .page-header{
+        .page-header {
             position: relative;
             height: 350px;
             overflow: hidden;
         }
 
         /* Background image */
-        .page-header-bg{
+        .page-header-bg {
             position: absolute;
             inset: 0;
             background-size: cover;
@@ -25,7 +25,7 @@
         }
 
         /* Content */
-        .page-header-content{
+        .page-header-content {
             position: relative;
             z-index: 2;
             height: 100%;
@@ -34,7 +34,7 @@
             align-items: center;
         }
 
-        .page-header-content h2{
+        .page-header-content h2 {
             color: #fff;
             padding-top: 160px;
             padding-bottom: 50px;
@@ -46,13 +46,13 @@
         }
 
         /* Mobile */
-        @media(max-width:768px){
+        @media (max-width: 768px) {
 
-            .page-header{
+            .page-header {
                 height: 220px;
             }
 
-            .page-header-content h2{
+            .page-header-content h2 {
                 font-size: 40px;
             }
         }
@@ -119,23 +119,28 @@
 
                 <div class="col-lg-6 col-md-12 col-sm-12">
 
-                    <form>
+                    @if(session('success'))
 
-                        <input type="text" name="text" placeholder="Full Name" data-aos="fade-up" data-aos-delay="100"
-                               data-aos-duration="400">
+                        <div class="alert alert-success">
+                            {{ session('success') }}
+                        </div>
 
-                        <input type="email" name="email" placeholder="Email Id" data-aos="fade-up" data-aos-delay="200"
-                               data-aos-duration="500">
+                    @endif
 
-                        <input type="text" name="text" placeholder="Subject" data-aos="fade-up" data-aos-delay="300"
-                               data-aos-duration="600">
+                    <form action="{{ route('contact.submit') }}"
+                          method="POST">
 
-                        <textarea placeholder="Your Message" data-aos="fade-up" data-aos-delay="400"
-                                  data-aos-duration="700"></textarea>
+                        @csrf
 
-                        <button type="submit" class="theme-btn" data-aos="fade-up" data-aos-delay="400"
-                                data-aos-duration="800">Send Message
-                        </button>
+                        <input type="text" name="full_name" placeholder="Full Name *" required>
+
+                        <input type="email" name="email" placeholder="Email Address ">
+
+                        <input type="text" name="subject" placeholder="Subject">
+
+                        <textarea name="message" placeholder="Your Message *" required></textarea>
+
+                        <button type="submit" class="theme-btn">Send Message</button>
 
                     </form>
 
@@ -190,11 +195,9 @@
                                 </li>
 
 
-
                             </ul>
 
                         </li>
-
 
 
                     </ul>
