@@ -27,8 +27,8 @@ class HomeController extends Controller
     {
         $validated = $request->validate([
             'full_name' => 'required|string|max:255',
-            'email' => 'required|email',
-            'subject' => 'required|string|max:255',
+            'email' => 'nullable|email',
+            'subject' => 'nullable|string|max:255',
             'message' => 'required|string',
         ]);
 
