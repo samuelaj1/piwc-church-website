@@ -222,7 +222,7 @@
                        class="text-white location-link">
 
                         <i class="fa-solid fa-location-dot me-2 text-warning"></i>
-                        92 Spring Bank HU3 1AA, United Kingdom
+                        92 Spring Bank West, HU3 1AA, United Kingdom
 
                     </a>
                 </p>
@@ -296,68 +296,107 @@
                 <ul class="footer-services">
 
                     <!-- Sunday Service -->
-                    <li>
-
+                    <li class="service-item">
                         <div class="service-icon">
                             <i class="fa-solid fa-church"></i>
                         </div>
 
-                        <div>
-                            <h5 class="text-white">
-                                Sunday Worship Service
-                            </h5>
+                        <div class="service-content">
+                            <h5>Sunday Worship Service</h5>
 
-                            <p class="text-light mb-1">
+                            <p>
                                 <i class="fa-regular fa-clock me-2"></i>
-                                Sunday — 10:00 AM
+                                Sunday — 9:30 AM - 12:00 PM
                             </p>
                         </div>
+                    </li>
 
+                    <!-- Mid Week -->
+                    <li class="service-item">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-book-bible"></i>
+                        </div>
+
+                        <div class="service-content">
+                            <h5>Mid-Week Service</h5>
+
+                            <p>
+                                <i class="fa-regular fa-clock me-2"></i>
+                                Wednesday — 8:00 PM - 9:00 PM
+                            </p>
+                        </div>
+                    </li>
+
+                    <!-- Women Ministry -->
+                    <li class="service-item">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-person-dress"></i>
+                        </div>
+
+                        <div class="service-content">
+                            <h5>Women's Ministry</h5>
+
+                            <p>
+                                <i class="fa-regular fa-clock me-2"></i>
+                                Monday — 8:00 PM - 9:00 PM
+                            </p>
+                        </div>
+                    </li>
+
+                    <!-- Youth Ministry -->
+                    <li class="service-item">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-people-group"></i>
+                        </div>
+
+                        <div class="service-content">
+                            <h5>Youth Ministry</h5>
+
+                            <p>
+                                <i class="fa-regular fa-clock me-2"></i>
+                                Friday — 8:00 PM - 9:00 PM
+                            </p>
+                        </div>
                     </li>
 
                     <!-- Dawn Prayer -->
-                    <li>
-
+                    <li class="service-item">
                         <div class="service-icon">
                             <i class="fa-solid fa-hands-praying"></i>
                         </div>
 
-                        <div>
-                            <h5 class="text-white">
-                                Dawn Prayers
-                            </h5>
+                        <div class="service-content">
+                            <h5>Dawn Prayers</h5>
 
-                            <p class="text-light mb-1">
+                            <p>
                                 <i class="fa-regular fa-clock me-2"></i>
                                 Saturday — 5:00 AM – 6:00 AM
                             </p>
 
-                            <p class="text-light mb-1 small">
+                            <p class="meeting-info">
                                 <strong>Meeting ID:</strong>
                                 351 813 550 82
                             </p>
 
-                            <p class="text-light mb-2 small">
+                            <p class="meeting-info">
                                 <strong>Passcode:</strong>
                                 bdJjfN
                             </p>
 
-                            <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_MGI2ODBiZjAtM2VmNC00NjEyLWE3NTgtMTQ3ZjIzODRkNDRm%40thread.v2/0?context=%7b%22Tid%22%3a%22e7f4d11b-2181-4bd7-bda1-b01b09d32ae9%22%2c%22Oid%22%3a%22779ce3a1-d75c-4585-86e0-aea5b64ba03a%22%7d"
-                               target="_blank"
-                               class="join-teams-link">
-
+                            <a
+                                href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_MGI2ODBiZjAtM2VmNC00NjEyLWE3NTgtMTQ3ZjIzODRkNDRm%40thread.v2/0?context=%7b%22Tid%22%3a%22e7f4d11b-2181-4bd7-bda1-b01b09d32ae9%22%2c%22Oid%22%3a%22779ce3a1-d75c-4585-86e0-aea5b64ba03a%22%7d"
+                                target="_blank"
+                                class="join-teams-link"
+                            >
                                 <i class="fa-brands fa-microsoft me-2"></i>
                                 Join on Teams
                             </a>
-
                         </div>
-
                     </li>
 
                 </ul>
 
             </div>
-
 
         </div>
 

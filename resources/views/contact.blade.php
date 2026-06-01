@@ -96,7 +96,7 @@
                                 <span class="font-bold">PIWC Hull</span>
                                 <ul>
                                     <li>
-                                        92 Spring Bank, <br>
+                                        92 Spring Bank West, <br>
                                         Hull, HU3 1AA, United Kingdom
                                     </li>
                                     <li>
