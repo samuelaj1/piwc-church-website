@@ -142,14 +142,14 @@
 
                         @csrf
 
-                        <input type="text" name="full_name" placeholder="Full Name *" required>
+                        <input type="text" name="full_name" placeholder="Full Name (Optional)">
 
-                        <input type="email" name="email" placeholder="Email Address ">
+                        <input type="email" name="email" placeholder="Email Address (Optional)">
 
-                        <input type="text" name="subject" placeholder="Subject">
-
-                        <textarea name="message" placeholder="Your Message *" required></textarea>
-
+                        <textarea name="message" placeholder="Share your message *" required></textarea>
+                        <small class="text-light d-block mb-3">
+                            You may remain anonymous. Name and email are optional.
+                        </small>
                         <button type="submit" class="theme-btn">Send Message</button>
 
                     </form>

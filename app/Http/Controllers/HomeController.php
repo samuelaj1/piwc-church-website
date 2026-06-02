@@ -26,16 +26,14 @@ class HomeController extends Controller
     public function submitContact(Request $request)
     {
         $validated = $request->validate([
-            'full_name' => 'required|string|max:255',
+            'full_name' => 'nullable|string|max:255',
             'email' => 'nullable|email',
-            'subject' => 'nullable|string|max:255',
             'message' => 'required|string',
         ]);
 
         $contact = (object) [
             'full_name' => $validated['full_name'],
             'email' => $validated['email'],
-            'subject' => $validated['subject'],
             'message' => $validated['message'],
         ];
 
