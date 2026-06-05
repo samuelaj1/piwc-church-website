@@ -27,31 +27,10 @@
             padding-bottom: 70px;
         }
 
-        .sermon-card {
-            background: #fff;
-            border-radius: 25px;
-            overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, .08);
-            height: 100%;
-        }
-
-        .sermon-thumb {
-            position: relative;
-            display: block;
-        }
-
         .sermon-thumb img {
             width: 100%;
             height: 240px;
             object-fit: cover;
-        }
-
-        .play-btn {
-            position: absolute;
-            inset: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
         }
 
         .play-btn i {
@@ -65,9 +44,6 @@
             justify-content: center;
         }
 
-        .sermon-content {
-            padding: 25px;
-        }
 
         .latest-sermon-card iframe {
             width: 100%;
@@ -121,6 +97,19 @@
                          data-image="{{ asset('/assets/images/project_day.jpg') }}">
 
                         <img src="{{ asset('/assets/images/project_day.jpg') }}"
+                             alt="National Project Day">
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+
+                    <div class="event event-card"
+                         data-bs-toggle="modal"
+                         data-bs-target="#eventImageModal"
+                         data-image="{{ asset('/assets/images/national_pemem_week.jpg') }}">
+
+                        <img src="{{ asset('/assets/images/half_night.jpg') }}"
                              alt="National Project Day">
 
                     </div>
