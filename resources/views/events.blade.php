@@ -81,6 +81,33 @@
                     <div class="event event-card"
                          data-bs-toggle="modal"
                          data-bs-target="#eventImageModal"
+                         data-image="{{ asset('/assets/images/half_night.jpg') }}">
+
+                        <img src="{{ asset('/assets/images/half_night.jpg') }}"
+                             alt="National Project Day">
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+
+                    <div class="event event-card"
+                         data-bs-toggle="modal"
+                         data-bs-target="#eventImageModal"
+                         data-image="{{ asset('/assets/images/national_pemem_week.jpg') }}">
+
+                        <img src="{{ asset('/assets/images/national_pemem_week.jpg') }}"
+                             alt="National Project Day">
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+
+                    <div class="event event-card"
+                         data-bs-toggle="modal"
+                         data-bs-target="#eventImageModal"
                          data-image="{{ asset('/assets/images/event-1.jpg') }}">
 
                         <img src="{{ asset('/assets/images/event-1.jpg') }}"
@@ -97,19 +124,6 @@
                          data-image="{{ asset('/assets/images/project_day.jpg') }}">
 
                         <img src="{{ asset('/assets/images/project_day.jpg') }}"
-                             alt="National Project Day">
-
-                    </div>
-
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-
-                    <div class="event event-card"
-                         data-bs-toggle="modal"
-                         data-bs-target="#eventImageModal"
-                         data-image="{{ asset('/assets/images/national_pemem_week.jpg') }}">
-
-                        <img src="{{ asset('/assets/images/half_night.jpg') }}"
                              alt="National Project Day">
 
                     </div>
