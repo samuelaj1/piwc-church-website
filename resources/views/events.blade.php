@@ -81,6 +81,32 @@
                     <div class="event event-card"
                          data-bs-toggle="modal"
                          data-bs-target="#eventImageModal"
+                         data-image="{{ asset('/assets/images/prayer_tower.jpg') }}">
+
+                        <img src="{{ asset('/assets/images/prayer_tower.jpg') }}"
+                             alt="Prayer Tower">
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+
+                    <div class="event event-card"
+                         data-bs-toggle="modal"
+                         data-bs-target="#eventImageModal"
+                         data-image="{{ asset('/assets/images/victory_over.jpg') }}">
+
+                        <img src="{{ asset('/assets/images/victory_over.jpg') }}"
+                             alt="Victory Over">
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+
+                    <div class="event event-card"
+                         data-bs-toggle="modal"
+                         data-bs-target="#eventImageModal"
                          data-image="{{ asset('/assets/images/half_night.jpg') }}">
 
                         <img src="{{ asset('/assets/images/half_night.jpg') }}"
